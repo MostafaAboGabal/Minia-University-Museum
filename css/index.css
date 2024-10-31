@@ -143,9 +143,10 @@ header button:hover a {
 }
 #left_ {
     float: left;
-	left: 66px;
+	right: 222px;
 	top: 3px;
 	width: 266px;
+	margin: -20px;
 }
 #left_ h2{
 	font: 30px/24px "Calisto MT";
@@ -159,12 +160,12 @@ header button:hover a {
 	margin-right: 0;
 	margin-bottom: 10px;
 	padding-top: 0px;
-	padding-left: 5px;
+	padding-left: 0px;
 }
 #left_ p{
 	background: no-repeat;
 	color: #E1BF9D;
-	padding: 0 0 0 5px;
+	padding: 0 0 0 0px;
 	width: 190px;
 	display: block;
 	font: 13px/20px "Trebuchet MS";
@@ -198,11 +199,10 @@ header button:hover a {
 }
 #right_ {
 float: right;
-	left: 26px;
+	left: 6px;
 	top: 364px;
 	width: 554px;
-	background-image: url('images/right.jpg');
-	background-repeat: no-repeat;
+
 }
 #right_ h2{
 	font: 30px/24px "Calisto MT";
@@ -216,7 +216,7 @@ float: right;
 	margin-right: 0;
 	margin-bottom: 10px;
 	padding-top: 0px;
-	padding-left: 4px;
+	padding-left: 0px;
 }
 #right_ p{
 	background: no-repeat;
