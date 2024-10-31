@@ -148,7 +148,7 @@ header button:hover a {
 	width: 100%;
 }
 #left_ h2{
-	font: 30px/24px "Calisto MT";
+	font: 24px "Calisto MT";
 	color: #FFCC66;
 	font-weight: normal;
 	display: block;
@@ -157,7 +157,7 @@ header button:hover a {
 	text-indent: 0px;
 	margin-top: 0;
 	margin-right: 0;
-	margin-bottom:20px;
+	margin-bottom:10px;
 	padding-top: 0px;
 	padding-left: 0px;
 	width: 100%;
@@ -203,7 +203,7 @@ float: right;
 
 }
 #right_ h2{
-	font: 30px/24px "Calisto MT";
+	font: 24px "Calisto MT";
 	color: #FFCC66;
 	font-weight: normal;
 	display: block;
