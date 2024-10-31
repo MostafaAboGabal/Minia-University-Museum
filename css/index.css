@@ -1,0 +1,259 @@
+header {
+    background-image: url(التعديل.jfif);
+background-size: cover;
+
+}
+
+.small-container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, .51);
+    width: 100%;
+    height: 100%;
+}
+
+.violet-overlay {
+    background-color: rgba(189, 140, 191, .51);
+    width: 100%;
+    height: 100%;
+    padding: 70px 0;
+}
+
+.white-overlay {
+    background-color: rgba(255, 255, 255, .7);
+    height: 100%;
+    width: 100%;
+}
+
+h2 span, h1 span {
+    color: #bd8cbf;
+}
+
+li {
+    list-style-type: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a, button {
+    transition: all .5s ease;
+}
+
+button {
+    padding: 0
+}
+
+body {
+    font-size: 1.1rem;
+}
+
+/* navbar */
+
+nav.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    width: 100%;
+    z-index: 1000;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav.navbar a, nav.navbar ul li a {
+    color: #FFF !important;
+}
+
+nav.navbar ul li {
+    padding: 0 15px;
+}
+
+nav.navbar .search-container {
+    position: relative;
+}
+
+nav.navbar form {
+    padding: 5px;
+    background-color: white;
+    position: absolute;
+    width: 260px;
+    display: none;
+}
+
+nav.navbar form input {
+    padding: 5px 10px;
+    border: 1px solid #b7b5b5;
+    background-color: #e6e3e3;
+    width: 100%;
+}
+
+/* header */
+
+header {
+    position: relative;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+header .container {
+    height: 100%;
+}
+
+header .container > div {
+    margin: 0 auto;
+    position: relative;
+/*    text-align: center;*/
+}
+
+header .container > div h1 {
+    font-size: 90px;
+}
+
+header button {
+    background-color: transparent;
+    display: block;
+    border: 1px solid #FFF;
+    border-radius: 50px;
+    padding: 0;
+    margin: 30px auto;
+}
+
+header button a {
+    padding: 10px 40px;
+    display: block;
+    color: #FFF;
+}
+
+header button:hover {
+    background-color: #bd8cbf;
+    border: 1px solid #bd8cbf;
+}
+@media (max-width: 767px){
+    header button:hover{
+        background-color: #bd8cbf;
+        border: 1px solid #bd8cbf;
+    }
+}
+header button:hover a {
+    color: white;
+}
+#left_ {
+    float: left;
+	left: 66px;
+	top: 3px;
+	width: 266px;
+	background-image: url('images/left.jpg');
+	background-repeat: no-repeat;
+}
+#left_ h2{
+	font: 30px/24px "Calisto MT";
+	color: #FFCC66;
+	font-weight: normal;
+	display: block;
+	letter-spacing: -1px;
+	word-spacing: 0em;
+	text-indent: 0px;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 10px;
+	padding-top: 0px;
+	padding-left: 55px;
+}
+#left_ p{
+	background: no-repeat;
+	color: #E1BF9D;
+	padding: 0 0 0 55px;
+	width: 190px;
+	display: block;
+	font: 13px/20px "Trebuchet MS";
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	letter-spacing: 0px;
+}
+#left_ p span{
+	color: #E1BF9D;
+	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: -1px;
+}
+#left_ p span.bg{
+	color: #799fbb;
+}
+#left_ p a{
+	font: 13px/12px "trebuchet MS";
+	font-weight: normal;
+	color: #FFD62F;
+	text-decoration: underline;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+}
+#left_ p a:hover{
+	background: no-repeat;
+	color: #FF6600;
+	font-weight: normal;
+}
+#right_ {
+float: right;
+	left: 266px;
+	top: 364px;
+	width: 554px;
+	background-image: url('images/right.jpg');
+	background-repeat: no-repeat;
+}
+#right_ h2{
+	font: 30px/24px "Calisto MT";
+	color: #FFCC66;
+	font-weight: normal;
+	display: block;
+	letter-spacing: -1px;
+	word-spacing: 0em;
+	text-indent: 0px;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 10px;
+	padding-top: 0px;
+	padding-left: 20px;
+}
+#right_ p{
+	background: no-repeat;
+	color: #E1BF9D;
+	padding: 0 0 0 20px;
+	width: 490px;
+	display: block;
+	font: 13px/20px "Trebuchet MS";
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	letter-spacing: 0px;
+}
+#right_ p span{
+	color: #E1BF9D;
+	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: -1px;
+}
+#right_ p span.bg{
+	color: #799fbb;
+}
+#right_ p a{
+	font: 13px/12px "trebuchet MS";
+	font-weight: normal;
+	color: #FFD62F;
+	text-decoration: underline;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+}
+#right_ p a:hover{
+	background: no-repeat;
+	color: #FF6600;
+	font-weight: normal;
+}
+
+
