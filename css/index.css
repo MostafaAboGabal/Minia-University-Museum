@@ -146,8 +146,6 @@ header button:hover a {
 	left: 66px;
 	top: 3px;
 	width: 266px;
-	background-image: url('images/left.jpg');
-	background-repeat: no-repeat;
 }
 #left_ h2{
 	font: 30px/24px "Calisto MT";
@@ -161,12 +159,12 @@ header button:hover a {
 	margin-right: 0;
 	margin-bottom: 10px;
 	padding-top: 0px;
-	padding-left: 55px;
+	padding-left: 5px;
 }
 #left_ p{
 	background: no-repeat;
 	color: #E1BF9D;
-	padding: 0 0 0 55px;
+	padding: 0 0 0 5px;
 	width: 190px;
 	display: block;
 	font: 13px/20px "Trebuchet MS";
@@ -200,7 +198,7 @@ header button:hover a {
 }
 #right_ {
 float: right;
-	left: 266px;
+	left: 26px;
 	top: 364px;
 	width: 554px;
 	background-image: url('images/right.jpg');
@@ -218,12 +216,12 @@ float: right;
 	margin-right: 0;
 	margin-bottom: 10px;
 	padding-top: 0px;
-	padding-left: 20px;
+	padding-left: 5px;
 }
 #right_ p{
 	background: no-repeat;
 	color: #E1BF9D;
-	padding: 0 0 0 20px;
+	padding: 0 0 0 5px;
 	width: 490px;
 	display: block;
 	font: 13px/20px "Trebuchet MS";
