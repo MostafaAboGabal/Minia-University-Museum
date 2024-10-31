@@ -1,22 +1,23 @@
 header {
     background-image: url(التعديل.jfif);
 background-size: cover;
+max-width: 100%;
 
 }
 
 .small-container {
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
 }
 
 .overlay {
-    background-color: rgba(0, 0, 0, .51);
+	background-color: rgba(0, 0, 0, .51); 
     width: 100%;
     height: 100%;
+	
 }
-
 .violet-overlay {
-    background-color: rgba(189, 140, 191, .51);
+    background-color: rgba(219, 13, 226, 0.51);
     width: 100%;
     height: 100%;
     padding: 70px 0;
@@ -58,14 +59,14 @@ nav.navbar {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: transparent;
+    background-color:  rgba(0, 0, 0, .51); 
     width: 100%;
     z-index: 1000;
     font-family: 'Open Sans', sans-serif;
 }
 
 nav.navbar a, nav.navbar ul li a {
-    color: #FFF !important;
+    color: #FFD62F !important;
 }
 
 nav.navbar ul li {
@@ -101,6 +102,7 @@ header {
 
 header .container {
     height: 100%;
+	width: 100%;
 }
 
 header .container > div {
@@ -110,7 +112,7 @@ header .container > div {
 }
 
 header .container > div h1 {
-    font-size: 90px;
+    font-size: 18px;
 }
 
 header button {
@@ -143,10 +145,10 @@ header button:hover a {
 }
 #left_ {
     float: left;
-	right: 222px;
-	top: 3px;
-	width: 266px;
-	margin: -20px;
+	right: 2px;
+	top: 0px;
+	width: 100%;
+	margin: 20px;
 }
 #left_ h2{
 	font: 30px/24px "Calisto MT";
@@ -200,7 +202,7 @@ header button:hover a {
 #right_ {
 float: right;
 	left: 6px;
-	top: 364px;
+	top: 0px;
 	width: 554px;
 
 }
